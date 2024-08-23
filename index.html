@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Sticky Header -->
+    <div class="sticky-header">
+        <nav class="navbar">
+            <a href="#" class="logo">Andrew & Co.</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a href="#">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Service 1</a></li>
+                        <li><a href="#">Service 2</a></li>
+                        <li><a href="#">Service 3</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="#">About</a></li>
+                <li class="nav-item"><a href="#">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-toggle">☰</div>
+        </nav>
+    </div>
+
+    <!-- Full-Screen Hero Section -->
+    <section class="hero-section">
+        <!-- <div class="hero-overlay"></div> -->
+        <div class="hero-content">
+            <h1>Welcome to Andrew & Co.</h1>
+            <br>
+            <a href="#" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Feature Section -->
+    <section class="feature-section">
+        <h2>Features</h2>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <i class="feature-icon">🛎️</i>
+                <h3>Instant Notifications</h3>
+                <p>Stay informed with real-time notifications for important updates, ensuring you never miss out on anything crucial.</p>
+            </div>
+            <div class="feature-item">
+                <i class="feature-icon">💡</i>
+                <h3>User-Friendly Interface</h3>
+                <p>Navigate through a sleek, intuitive interface designed for an effortless user experience.</p>
+            </div>
+            <div class="feature-item">
+                <i class="feature-icon">📞</i>
+                <h3>24/7 Support</h3>
+                <p>Access around-the-clock customer support to assist you with any issues or questions you might have.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Carousel -->
+    <section class="testimonial-section">
+        <h2>Testimonials</h2>
+        <div class="carousel">
+            <div class="carousel-item">
+                <div class="image">
+                    <img src="https://th.bing.com/th?q=Current+Bachelor&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247" alt="">
+                </div>
+                <p>Amazing Service!!</p>
+                <p>- John Doe</p>
+            </div>
+            <div class="carousel-item">
+                <div class="image">
+                    <img src="https://th.bing.com/th/id/OIP.GKAiW3oc2TWXVEeZAzrWOAHaJF?w=135&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+                </div>
+                <p>Will use again!!</p>
+                <p>- John Doe</p>
+            </div>
+            <div class="carousel-item">
+                <div class="image">
+                    <img src="https://th.bing.com/th?q=Current+Bachelor&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247" alt="">
+                </div>
+                <p>Highly Recommended!!</p>
+                <p>- John Doe</p>
+            </div>
+        </div>
+        <!-- <div class="carousel-controls">
+            <button class="prev">❮</button>
+            <button class="next">❯</button>
+        </div> -->
+    </section>
+
+    <!-- Sticky Footer -->
+    <footer class="sticky-footer">
+        <div class="footer-content">
+            <div class="social-media-links">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+            <div class="company-description">
+                <p>Our company is committed to providing exceptional services.</p>
+            </div>
+            <div class="contact-form">
+                Contact Us: 
+                <br/>
+                <form action="#">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="text" name="message" placeholder="Message" required>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
